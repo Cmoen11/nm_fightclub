@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+span.Notifictation {
+    text-shadow: 1px 1px 1px #000; color: #FFF;
+    font-size: 15px;
+}
+div.successBox {
+    background-color: #2BBB0E;
+    border-color: #2AFF00;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2px;
+    padding: 5px;
+    margin: 10px 0px 5px 0px;
+
+}
+
+div.successBox div#close {
+    float:right;
+    width:50px;
+    background-color:darkred;
+    color:white;
+    height: 30px;
+    font-size: 25px;
+    padding:8px;
+    position: relative;
+    top:-6px;
+    right: -6px;
+    cursor:pointer;
+    border-radius: 2px;
+
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+

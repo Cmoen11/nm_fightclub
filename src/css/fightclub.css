@@ -1,0 +1,71 @@
+div.fightclub_Box
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 280px;
+    min-height: 50px;
+    background-color: #636563;
+    float:left;
+    margin-top: 15px;
+}
+
+div.fightclub_Box table
+{
+    border-collapse: collapse;
+}
+
+div.fightclub_Box td
+{
+    width: 150px;
+    border-bottom: 1px solid #000;
+}
+
+div.fightclub_Box td.left
+{
+    border-left: 1px solid #000;
+}
+div.fightclub_Box td.right
+{
+    border-right: 1px solid #000;
+}
+
+
+
+span.noCenter
+{
+    margin-left:5px;
+}
+
+
+
+div.fightclub_box-Kamper
+{
+    width: 250 !important;
+}
+
+
+div.fightclub_box-Kamper table
+{
+    border-collapse: collapse;
+}
+
+div.fightclub_box-Kamper td
+{
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+div.fightclub_box-Kamper td.left
+{
+    border-left: 1px solid #000;
+}
+div.fightclub_box-Kamper td.right
+{
+    border-right: 1px solid #000;
+}
+
+div#hl_paginationblock
+{
+    padding: 15px;
+    text-align: center;
+}
